@@ -10,13 +10,16 @@ export const Hero = () => {
         <h1 className="text-primary pb-2 text-4xl font-bold lg:text-5xl">
           Create a professional
           <br />
-          resume easily
+          resume easily with PedalConnect
         </h1>
         <p className="mt-3 text-lg lg:mt-5 lg:text-xl">
-          With this free, open-source, and powerful resume builder
+          With this free, and powerful resume builder
         </p>
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
           Create Resume <span aria-hidden="true">→</span>
+        </Link>
+        <Link href="/resume-parser" className="btn-primary mt-6 lg:mt-14">
+          Resume Parser<span aria-hidden="true">→</span>
         </Link>
         <p className="ml-6 mt-3 text-sm text-gray-600">No sign up required</p>
         <p className="mt-3 text-sm text-gray-600 lg:mt-36">
